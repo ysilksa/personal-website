@@ -13,6 +13,22 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+
+@font-face {
+  font-family: 'NunitoBold';
+  src: url('./fonts/Nunito-Bold.ttf') format('truetype')
+}
+
+@font-face {
+  font-family: 'NunitoRegular';
+  src: url('./fonts/Nunito-Regular.ttf') format('truetype')
+}
+
+@font-face {
+  font-family: 'OutfitRegular';
+  src: url('./fonts/Outfit-Regular.ttf') format('truetype')
+}
+
 a {
   font-weight: 500;
   color: #646cff;
