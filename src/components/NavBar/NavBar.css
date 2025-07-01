@@ -1,0 +1,44 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    background-color: #FFFFFC;
+    width: 100vw; 
+    height: 20vh;
+    white-space: nowrap;
+}
+
+#navbar-left {
+    display: flex; 
+    background-color: #FFFFFC;
+    width: 20vw; 
+    justify-content: flex-start;
+    align-self: center;
+    white-space: nowrap;
+    margin: 0.5vw; 
+}
+#navbar-left img {
+    height: 100%;
+    max-height: 8vw; 
+    width: auto;
+}
+
+#navbar-right {
+    display: flex; 
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #FFFFFC;
+    width: 60vw; 
+    margin: 2vw; 
+    gap: 5vw; 
+}
+
+a {
+    font-family: 'NunitoRegular';
+    color: #333030;
+    font-size: 23pt; 
+}
