@@ -2,13 +2,12 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    position: fixed; 
-    top: 0; 
-    left: 0; 
     background-color: #FFFFFC;
-    width: 100vw; 
+    width: 96vw; 
     height: 20vh;
     white-space: nowrap;
+    padding-left: 1vw;
+    padding-right: 3vw;
 }
 
 #navbar-left {
@@ -18,7 +17,6 @@
     justify-content: flex-start;
     align-self: center;
     white-space: nowrap;
-    margin: 0.5vw; 
 }
 #navbar-left img {
     height: 100%;
@@ -32,8 +30,7 @@
     justify-content: flex-end;
     align-items: center;
     background-color: #FFFFFC;
-    width: 60vw; 
-    margin: 2vw; 
+    width: 20vw; 
     gap: 5vw; 
 }
 
