@@ -1,0 +1,41 @@
+.footer {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    width: 98vw; 
+    height: 25vh; 
+    background-color: #9F4470; 
+    color: #FFFFFC;
+    padding: 1vw;
+}
+
+/* left side of footer */
+#footer-left {
+    display: flex; 
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+
+.img-gallery {
+    display: flex; 
+    flex-direction: row; 
+    gap: 2vw;
+}
+
+.footer-img {
+    width: 5vw; 
+    height: auto; 
+}
+
+
+/* right side of footer */
+#footer-right {
+    display: flex; 
+    flex-direction: row;
+}
+
+.link-list {
+    display: flex;
+    flex-direction: column;
+}

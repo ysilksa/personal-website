@@ -1,5 +1,11 @@
 #home-page {
+    display: flex; 
+    flex-direction: column;
     background-color: #F2E2E0;
     width: 100vw; 
-    height: 100vh; 
+    height: 150vh; 
+}
+
+.main-content {
+  flex: 1; /* sets flex-grow, flex-shrink = 1, flex-basis = 0 */
 }
