@@ -1,8 +1,12 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
-export default function Button({ label }) {
+
+export default function Button({ label, route }) {
+    const navigate = useNavigate();
+
     return (
-        <button>
+        <button onClick={() => navigate( route )}>
             <span>{ label }</span>
         </button>
     );

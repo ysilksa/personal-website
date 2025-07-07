@@ -10,6 +10,13 @@
     padding-right: 3vw;
 }
 
+
+.navbar a {
+    font-family: 'NunitoRegular';
+    color: #333030;
+    font-size: 23pt; 
+}
+
 #navbar-left {
     display: flex; 
     background-color: #FFFFFC;
@@ -32,10 +39,4 @@
     background-color: #FFFFFC;
     width: 20vw; 
     gap: 5vw; 
-}
-
-a {
-    font-family: 'NunitoRegular';
-    color: #333030;
-    font-size: 23pt; 
 }
