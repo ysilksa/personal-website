@@ -1,5 +1,6 @@
 import React from 'react';
 import './NavBar.css';
+import { Link } from "react-router-dom";
 import Button from '../Button/Button';
 
 
@@ -10,10 +11,10 @@ const NavBar = () => {
                 <img src='/icon/RabbitIcon.png' alt='Pixelated Rabbit Icon'/>
             </div>
             <div id='navbar-right'>
-                <a href='/home'>Home</a>
-                <a href='/portfolio'>Portfolio</a>
-                <a href='/aboutme'>About Me</a>
-                <Button label='Contact Me' />
+                <Link to='/'>Home</Link>
+                <Link to='/portfolio'>Portfolio</Link>
+                <Link to='/aboutme'>About Me</Link>
+                <Button label='Contact Me' route='/contactme'/>
             </div>
         </div>
     );
