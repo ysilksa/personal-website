@@ -7,7 +7,7 @@
     height: 30vh; 
     background-color: #9F4470; 
     color: #FFFFFC;
-    padding: 1em; 
+    padding: 2em; 
 }
 
 .footer a {
@@ -22,6 +22,12 @@
     flex-direction: column;
     justify-content: flex-start;
     align-content: flex-start;
+    gap: 2em; 
+}
+
+.footer h1 {
+    margin: 0px; 
+    padding: 0px; 
 }
 
 .img-gallery {
