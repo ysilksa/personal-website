@@ -1,3 +1,9 @@
+# Personal Website
+
+This website is meant to serve as an online portfolio for my projects that may not fit within my resume. 
+
+-----
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
