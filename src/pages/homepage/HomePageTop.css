@@ -1,0 +1,21 @@
+.homepagetop-container {
+    display: flex; 
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 50vw; 
+    height: auto; 
+    gap: 24px; 
+    padding: 8em 3.5em 8em 3.5em; 
+    text-align: left; 
+    color: #333030;
+    background-color: #F2E2E0;
+}
+
+.homepagetop-container h1 { 
+    margin: 0px; 
+    padding: 0px; 
+}
+
+
+

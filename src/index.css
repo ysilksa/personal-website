@@ -55,6 +55,11 @@ h2 {
   font-size: 1.92em; 
 }
 
+p {
+  font-family: "OutfitRegular";
+  font-size: 1.254em; 
+}
+
 button {
   font-family: 'NunitoRegular';
   color: #FFFFFC;
