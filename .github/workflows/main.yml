@@ -1,9 +1,12 @@
-name: Deploy Personal Website
+name: Deploy personal website 
 
 on:
   push:
     branches:
       - main  # Trigger deploy when pushing to this branch
+
+permissions:
+  contents: write
 
 jobs:
   build-and-deploy:
