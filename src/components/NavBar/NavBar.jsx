@@ -8,7 +8,7 @@ const NavBar = () => {
     return (
         <div className='navbar'>
             <div id='navbar-left'>
-                <img src='/icon/RabbitIcon.png' alt='Pixelated Rabbit Icon'/>
+                <img src={`${import.meta.env.BASE_URL}icon/RabbitIcon.png`} alt="Pixelated Rabbit Icon" />
             </div>
             <div id='navbar-right'>
                 <Link to='/'>Home</Link>

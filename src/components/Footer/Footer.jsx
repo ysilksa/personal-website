@@ -8,9 +8,9 @@ const Footer = () => {
             <div id='footer-left'>
                 <h1>Let's Connect!</h1>
                 <div className='img-gallery'>
-                    <img src='/footer/CoffeeIcon.png' alt='Pixel coffee with latte art' className='footer-img'/>
-                    <img src='/footer/CakeIcon.png' alt='Pixel strawberry cake with pink frosting' className='footer-img'/>
-                    <img src='/footer/ComputerIcon.png' alt='Pixel pink computer' className='footer-img'/>
+                    <img src={`${import.meta.env.BASE_URL}footer/CoffeeIcon.png`} alt='Pixel coffee with latte art' className='footer-img'/>
+                    <img src={`${import.meta.env.BASE_URL}footer/CakeIcon.png`} alt='Pixel strawberry cake with pink frosting' className='footer-img'/>
+                    <img src={`${import.meta.env.BASE_URL}footer/ComputerIcon.png`} alt='Pixel pink computer' className='footer-img'/>
                 </div>
             </div>
             <div id='footer-right'>
