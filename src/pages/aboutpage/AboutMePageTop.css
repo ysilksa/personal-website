@@ -1,0 +1,28 @@
+.container {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between;
+}
+
+.left-half {
+    width: 40vw; 
+    height: auto; 
+    text-align: left;
+    padding: 50px 100px 50px 100px; 
+}
+
+.right-half {
+    display: flex; 
+    width: 40vw; 
+    height: auto;
+    padding: 50px 100px 50px 100px; 
+    align-items: center;
+    justify-content: right;
+}
+
+.aboutme-image {
+    width: 30vw; 
+    height: auto;
+    max-width: 450px;  
+    background-color: #D9D9D9;
+}

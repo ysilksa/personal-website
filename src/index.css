@@ -60,6 +60,11 @@ p {
   font-size: 1.254em; 
 }
 
+ul {
+  font-family: "OutfitRegular";
+  font-size: 1.254em; 
+}
+
 button {
   font-family: 'NunitoRegular';
   color: #FFFFFC;
