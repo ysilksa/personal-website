@@ -1,0 +1,49 @@
+.page-container {
+    display: flex; 
+    flex-direction: row;
+    width: 100vw; 
+    height: auto; 
+    padding: 150px 50px 150px 84px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+/* left half with image */
+#left-half {
+    width: 40vw; 
+    position: relative;
+}
+
+.main-image {
+    width: 30vw; 
+    height: auto; 
+    max-width: 400px; 
+    z-index: 2; 
+    position: absolute; 
+    top: 80px;
+    left: 100px;
+
+}
+
+.box-shadow {
+    position: relative; 
+    width: 20vw;
+    height: 15vw;
+    background-color: #CEBEBE;
+    z-index: 1;
+}
+
+/* right half with text */
+#right-half {
+    width: 40vw;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    padding-right: 200px; 
+    text-align: left;
+}
+
+#right-half h1 {
+    margin: 0px; 
+    padding: 0px; 
+}
