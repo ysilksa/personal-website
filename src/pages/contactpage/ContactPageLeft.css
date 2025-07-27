@@ -1,0 +1,36 @@
+.contact-methods {
+    display: flex; 
+    flex-direction: column;
+    gap: 24px; 
+    margin: 0px;
+}
+
+.contact-methods h2 {
+    margin: 0px; 
+}
+
+.contact-methods p {
+    color: #656565;
+    margin: 0px; 
+}
+
+.contact-methods a {
+    margin: 0px; 
+    color: #656565;
+    font-family: "OutfitRegular";
+    font-size: 1.254em; 
+}
+
+.contact-methods a:hover {
+    text-decoration: underline;
+}
+
+.contact-methods a:visited {
+    color:#9E6C84;
+}
+
+.contact-method {
+    display: flex;
+    flex-direction: column;
+    gap: 8px; 
+}
