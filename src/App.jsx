@@ -1,11 +1,10 @@
-// import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
 import './App.css'
 import { Routes, Route } from 'react-router-dom';
 
-import HomePage from './pages/homepage/HomePage';
+import HomePage  from './pages/homepage/HomePage';
 import { AboutMePage } from './pages/aboutpage/AboutMePage';
+import { ContactPage } from './pages/contactpage/ContactPage';
+import { PortfolioPage } from './pages/portfoliopage/PortfolioPage';
 
 function App() {
 
@@ -14,6 +13,8 @@ function App() {
         <Route path="*" element={<HomePage />} />
         <Route path="/" element={<HomePage />} />
         <Route path="/aboutme" element={<AboutMePage/>} />
+        <Route path="/contactme" element={<ContactPage/>} />
+        <Route path="/portfolio" element={<PortfolioPage/>} />
       </Routes>
   )
 }

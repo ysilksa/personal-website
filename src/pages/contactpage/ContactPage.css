@@ -1,0 +1,30 @@
+.page-container {
+    display: flex; 
+    flex-direction: row;
+    gap: 25px; 
+    width: 90vw; 
+    height: auto;
+    padding: 50px 100px 50px 100px;
+}
+
+/* left half of page */
+.left-half {
+    display: flex; 
+    flex-direction: column;
+    gap: 20px; 
+    width: 30vw; 
+    height: auto; 
+}
+
+/* right half of page */
+/* .right-half {
+    width: 40vw; 
+    height: auto; 
+    background-color: rgb(28, 100, 100);
+} */
+
+/* .contact-form {
+    width: 400px; 
+    height: 300px; 
+    background-color: #F2E2E0;
+} */
